@@ -1,5 +1,7 @@
-build:
-	# placeholder
+all: latest
+
+latest:
+	docker build -t psliwka/aptly .
 
 login:
 	printenv "DOCKER_PASSWORD" | docker login -u "psliwkadeploys" --password-stdin
@@ -7,4 +9,4 @@ login:
 push: login
 	docker push psliwka/aptly
 
-.PHONY: login push
+.PHONY: latest login push
