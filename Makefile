@@ -10,4 +10,4 @@ push: login
 	docker push psliwka/aptly
 
 clean:
-	docker rmi psliwka/aptly
+	docker rmi -f psliwka/aptly
