@@ -11,5 +11,3 @@ push: login
 
 clean:
 	docker rmi psliwka/aptly
-
-.PHONY: latest login push
