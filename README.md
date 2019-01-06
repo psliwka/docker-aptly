@@ -29,8 +29,8 @@ Similar projects
 ----------------
 
 Aptly's readme lists at least two other projects packing it into Docker images:
-* [mikepurvis/aptly-docker](mikepurvis/aptly-docker), which looks dead at the
-  time of writing this;
-* [urpylka/docker-aptly](urpylka/docker-aptly), which has some nifty features,
-  but it was overly complex for my use-case. Additionally, it seems not to be
-  updated on par with its base image.
+* [mikepurvis/aptly-docker](https://github.com/mikepurvis/aptly-docker), which
+  looks dead at the time of writing this;
+* [urpylka/docker-aptly](https://github.com/urpylka/docker-aptly), which has
+  some nifty features, but it was overly complex for my use-case. Additionally,
+  it seems not to be updated on par with its base image.
