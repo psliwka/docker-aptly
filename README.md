@@ -20,6 +20,7 @@ on up-to-date Debian image.
 Usage
 -----
 
-At this moment, this image does not wrap any actual Aptly functionality. After
-you pull the image with `docker pull psliwka/aptly`, you are on your own w.r.t.
-running it.
+At this moment, this image does not wrap any actual Aptly functionality (no
+configuration, no custom entrypoint, etc.). After you pull the image with
+`docker pull psliwka/aptly`, it's up to you to configure it and run it in a way
+that matches your needs.
