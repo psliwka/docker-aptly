@@ -8,9 +8,7 @@ script:
 
 deploy:
   provider: script
-  script:
-    - printenv "DOCKER_PASSWORD" | docker login -u "psliwkadeploys" --password-stdin
-    - docker push psliwka/aptly
+  script: make push
   on:
     branch: master
 
