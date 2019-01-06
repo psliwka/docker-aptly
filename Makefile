@@ -9,4 +9,7 @@ login:
 push: login
 	docker push psliwka/aptly
 
+clean:
+	docker rmi psliwka/aptly
+
 .PHONY: latest login push
