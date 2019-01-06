@@ -1,0 +1,6 @@
+versions = $(shell cat aptly-versions.txt)
+
+all: $(versions)
+
+$(versions):
+	docker build -t psliwka/aptly:$@ --build-arg VERSION=$@ .
