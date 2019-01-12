@@ -21,6 +21,5 @@ push: login
 	docker push psliwka/aptly
 
 clean:
-	docker rmi -f aptly-temporary
-	docker rmi -f psliwka/aptly
+	docker images psliwka/aptly --format="{{.ID}}" | xargs docker rmi -f aptly-temporary
 	rm -f versions-to-build.txt
