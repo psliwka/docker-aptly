@@ -1,4 +1,4 @@
-versions = $(shell cat aptly-versions.txt)
+versions = $(shell cat versions-to-build.txt)
 
 all: $(versions)
 
