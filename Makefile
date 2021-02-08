@@ -17,7 +17,7 @@ versions-to-build.txt:
 login:
 	printenv "DOCKER_PASSWORD" | docker login -u "psliwkadeploys" --password-stdin
 
-push: login
+push:
 	docker push psliwka/aptly
 
 clean:
